@@ -1,0 +1,74 @@
+/*Styling Page*/
+
+/**{
+	box-sizing: border-box;
+	text-align: center;
+}*/
+
+body {
+	border:solid;
+	border-width: 1px;
+	font-size: 18px;
+	line-height: 32px;
+	background: lightgrey;
+	font-family: 'Ariel';
+}
+
+header{
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+div{
+	background-color: white;
+	padding:40px;
+}
+
+#name{
+	float: left;
+	background-color: teal;
+	color: white;
+	font-size: 20px;	
+	padding:10px 10px 10px 10px;
+	margin-left: 40px;
+	
+}
+
+#info{
+	float:left;
+	font-size: 15px;
+}
+
+.aboutme{
+	float:left;
+	width: 495px;
+	height: 270px;
+	padding: 20px;
+	margin-bottom: 20px;
+  	background: #ccc;
+}
+
+.connect{
+	float: right;
+	width: 200px;
+	height: 150px;
+
+}
+
+h3{
+	float: left;
+	font-size: 18px;
+	color:teal;
+	border-bottom: 1px solid grey;
+}
+
+img{
+	float: left;
+}
+
+footer{
+	clear:both;
+	float:left;
+	background-color: #666666;
+	border-color: #666666;
+}
